@@ -44,8 +44,8 @@ const uint8_t PIN_BME_PWR =  4;   // Irrelevant if directly connected to 3.3V
 const uint8_t BME_ADDRESS = 0x76; // 0x76 if SDO -> GND; 0x77 if SDO -> VCC
 
 // WIFI
-const char *WIFI_SSID     = "NETGEAR-Guest";
-const char *WIFI_PASSWORD = "D0breD06liSkapiG0sti";
+const char *WIFI_SSID     = "********";
+const char *WIFI_PASSWORD = "PASSWORD";
 const unsigned long WIFI_TIMEOUT = 10000; // ms, WiFi connection timeout.
 
 // HTTP
